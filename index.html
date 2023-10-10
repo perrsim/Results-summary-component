@@ -1,12 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Results Ssummary Component</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+  <body>
     
-</body>
+    <div class="contenitore">
+            <div class="card-left">
+                <p class="result">Your Result</p>
+                <div class="circle">
+                    <p class="circle-title">76</p>
+                    <p class="circle-p">of 100</p>
+                </div>
+                <p class="great">Great</p>
+                <p class="description">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+            <div class="right">
+                <h4 class="summary">Summary</h4>
+                <ul>
+                    <li class="reaction px-2">
+                        <div class="d-flex">
+                            <p class="icon-reaction"></p>
+                            <p class="reaction-text">Reaction</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="numb-1-reaction">80&nbsp</p>
+                            <p class="numb-2-reaction">/&nbsp100</p> 
+                        </div>
+                    </li>
+                    <li class="memory px-2">
+                        <div class="d-flex">
+                            <p class="icon-memory"></p>
+                            <p class="memory-text">Memory</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="numb-1-memory">92&nbsp</p>
+                            <p class="numb-2-memory">/&nbsp100</p> 
+                        </div>
+                    </li>
+                    <li class="verbal px-2">
+                        <div class="d-flex">
+                            <p class="icon-verbal"></p>
+                            <p class="verbal-text">Verbal</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="numb-1-verbal">61&nbsp</p>
+                            <p class="numb-2-verbal">/&nbsp100</p> 
+                        </div>
+                    </li>
+                    <li class="visual px-2">
+                        <div class="d-flex">
+                            <p class="icon-visual"></p>
+                            <p class="visual-text">Visual</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="numb-1-visual">72&nbsp</p>
+                            <p class="numb-2-visual">/&nbsp100</p> 
+                        </div>
+                    </li>
+                </ul>
+                <button>Continue</button>
+            </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
